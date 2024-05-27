@@ -37,6 +37,8 @@ This fragment loads the list of destinations. You get to filter all the results 
 
 This fragment loads a clicked Destination through navArgs, then allows you to review it, delete it or edit it. When you try to edit it, the Fragment enters Edit Mode, which changes the entire layout through a visibility change and allows you to make changes to the Destination. If you do edit the Destination, the lastModify argument gets changed. When trying to modify our Room database, for an item with the same id, we take the one with the latest lastModify.
 
+Deleting a Destination that is present in the mocked source will not work properly because as soon as we load said source again, the deleted Destination will be present again. Deleting Destinations you created yourself will work perfectly fine. 
+
 ### FdsaDestinationCreateFragment
 
 This fragment allows you to create a new Destination. The part that handles creation was made with mocks in mind: Usually you'd create a new Destination, send it to the API (which would decide the id for the new destination since it's the source of truth), then query for the list of Destinations and update it once it's downloaded. Since our API is just a mock, we calculate a valid id for it and then save it in our Room database.

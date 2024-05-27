@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Berlin",
+    "description": "Capital of Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 2,
+    "name": "Madrid",
+    "description": "Vibrant and cultural capital",
+    "countryCode": "ES",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 3,
+    "name": "Rome",
+    "description": "The eternal city",
+    "countryCode": "IT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 4,
+    "name": "Paris",
+    "description": "The city of love",
+    "countryCode": "FR",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 5,
+    "name": "Vienna",
+    "description": "City of music",
+    "countryCode": "AT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 6,
+    "name": "Hamburg",
+    "description": "Major port city in northern Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 7,
+    "name": "Warsaw",
+    "description": "Capital of Poland",
+    "countryCode": "PL",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 8,
+    "name": "Bucharest",
+    "description": "Capital of Romania",
+    "countryCode": "RO",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 9,
+    "name": "Budapest",
+    "description": "Capital of Hungary",
+    "countryCode": "HU",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 10,
+    "name": "Barcelona",
+    "description": "The city of Gaudi",
+    "countryCode": "ES",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 11,
+    "name": "Munich",
+    "description": "Bavarian gem",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 12,
+    "name": "Prague",
+    "description": "City of a hundred spires",
+    "countryCode": "CZ",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 13,
+    "name": "Milan",
+    "description": "Fashion capital",
+    "countryCode": "IT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 14,
+    "name": "Sofia",
+    "description": "Capital of Bulgaria",
+    "countryCode": "BG",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 15,
+    "name": "Cologne",
+    "description": "Cultural hub in western Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 16,
+    "name": "Stockholm",
+    "description": "Scandinavian beauty",
+    "countryCode": "SE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 17,
+    "name": "Amsterdam",
+    "description": "Canal city",
+    "countryCode": "NL",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 18,
+    "name": "Naples",
+    "description": "City of pizza",
+    "countryCode": "IT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 19,
+    "name": "Marseille",
+    "description": "Gateway to the Mediterranean",
+    "countryCode": "FR",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 20,
+    "name": "Turin",
+    "description": "Industrial and cultural city",
+    "countryCode": "IT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 21,
+    "name": "Valencia",
+    "description": "City of arts and sciences",
+    "countryCode": "ES",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 22,
+    "name": "Kraków",
+    "description": "Cultural capital of Poland",
+    "countryCode": "PL",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 23,
+    "name": "Frankfurt",
+    "description": "Financial hub",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 24,
+    "name": "Zagreb",
+    "description": "Capital of Croatia",
+    "countryCode": "HR",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 25,
+    "name": "Seville",
+    "description": "Cultural and artistic city",
+    "countryCode": "ES",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 26,
+    "name": "Zaragoza",
+    "description": "City of four cultures",
+    "countryCode": "ES",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 27,
+    "name": "Helsinki",
+    "description": "Design capital of the world",
+    "countryCode": "FI",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 28,
+    "name": "Wrocław",
+    "description": "Historic city in Poland",
+    "countryCode": "PL",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 29,
+    "name": "Rotterdam",
+    "description": "Port city in the Netherlands",
+    "countryCode": "NL",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 30,
+    "name": "Copenhagen",
+    "description": "Capital of Denmark",
+    "countryCode": "DK",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 31,
+    "name": "Łódź",
+    "description": "Third-largest city in Poland",
+    "countryCode": "PL",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 32,
+    "name": "Athens",
+    "description": "Cradle of Western civilization",
+    "countryCode": "GR",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 33,
+    "name": "Stuttgart",
+    "description": "Industrial city in Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 34,
+    "name": "Düsseldorf",
+    "description": "Fashion and trade fair city",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 35,
+    "name": "Palermo",
+    "description": "Capital of Sicily",
+    "countryCode": "IT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 36,
+    "name": "Leipzig",
+    "description": "City of music in Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 37,
+    "name": "Riga",
+    "description": "Capital of Latvia",
+    "countryCode": "LV",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 38,
+    "name": "Gothenburg",
+    "description": "Largest non-capital city in Sweden",
+    "countryCode": "SE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 39,
+    "name": "Vilnius",
+    "description": "Capital of Lithuania",
+    "countryCode": "LT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 40,
+    "name": "Dortmund",
+    "description": "City in Germany's industrial Ruhr region",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 41,
+    "name": "Dublin",
+    "description": "Fair City",
+    "countryCode": "IE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 42,
+    "name": "Málaga",
+    "description": "Costa del Sol's largest city",
+    "countryCode": "ES",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 43,
+    "name": "Essen",
+    "description": "City in western Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 44,
+    "name": "Bremen",
+    "description": "City in northern Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 45,
+    "name": "The Hague",
+    "description": "Seat of the Dutch government",
+    "countryCode": "NL",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 46,
+    "name": "Dresden",
+    "description": "Baroque city in Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 47,
+    "name": "Genoa",
+    "description": "Birthplace of Christopher Columbus",
+    "countryCode": "IT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 48,
+    "name": "Antwerp",
+    "description": "Diamond capital of the world",
+    "countryCode": "BE",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 49,
+    "name": "Lisbon",
+    "description": "City of seven hills",
+    "countryCode": "PT",
+    "destinationType": "city",
+    "lastModify": 0
+  },
+  {
+    "id": 50,
+    "name": "Hanover",
+    "description": "City in northern Germany",
+    "countryCode": "DE",
+    "destinationType": "city",
+    "lastModify": 0
+  }
+]

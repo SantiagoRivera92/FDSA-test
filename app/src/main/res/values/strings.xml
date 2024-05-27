@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FDSA Destinations Test</string>
+    <string name="app_title">FDSA Destinations Test - Santiago Rivera</string>
+    <string name="loading">Loading…</string>
+    <string name="action_search">Search</string>
+    <string name="error_no_internet">You don\'t have an internet connection. Please connect to the Internet and try again.</string>
+    <string name="add_new_destination">Add new destination</string>
+    <string name="edit">Update destination</string>
+    <string name="delete">Delete destination</string>
+    <string name="save_changes">Save changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save destination</string>
+    <string name="destination_type">Destination Type</string>
+    <string name="country_code">Country Code</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+    <string name="fill_all_fields">Please fill out the name and description fields.</string>
+    <string name="destination_updated">Destination updated</string>
+    <string name="destination_deleted">Destination deleted</string>
+</resources>

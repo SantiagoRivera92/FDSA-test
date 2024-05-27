@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Destinations" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/red</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+</resources>

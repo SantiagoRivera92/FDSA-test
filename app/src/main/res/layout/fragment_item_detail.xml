@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.Destinations"
+    android:padding="16dp">
+
+    <!-- Non-edit mode elements -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/viewModeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/destinationDetailTextName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.Destinations.DestinationTitle"
+            tools:text="Barcelona"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/destinationDetailTextCountryCode"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/destinationDetailTextDescription"
+            android:layout_width="0dp"
+            tools:text="The City of Gaudi"
+            android:theme="@style/Theme.Destinations.DestinationDescription"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/destinationDetailTextName"
+            app:layout_constraintEnd_toStartOf="@id/destinationDetailTextCountryCode"/>
+
+        <!-- Country Code -->
+        <TextView
+            android:id="@+id/destinationDetailTextCountryCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:theme="@style/Theme.Destinations.DestinationCountryCode"
+            tools:text="🇪🇸"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <!-- Type -->
+
+        <TextView
+            android:id="@+id/destinationDetailTextType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="city"
+            android:layout_marginTop="16dp"
+            android:theme="@style/Theme.Destinations.DestinationLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/destinationDetailTextDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Edit mode elements -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/editModeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/destinationDetailEditName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/destinationDetailEditDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/destinationDetailEditName" />
+
+        <!-- Guideline -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/destinationDetailGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <Spinner
+            android:id="@+id/destinationDetailSpinnerType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/destinationDetailGuideline"
+            app:layout_constraintTop_toBottomOf="@id/destinationDetailEditDescription"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <Spinner
+            android:id="@+id/destinationDetailSpinnerCountryCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/destinationDetailGuideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/destinationDetailSpinnerType"
+            android:layout_marginStart="8dp" />
+
+        <!-- Save and Cancel Buttons (Edit Mode Only) -->
+        <Button
+            android:id="@+id/destinationDetailButtonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            style="@style/Theme.Destinations.DestinationEditButton"
+            android:text="@string/save_changes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/destinationDetailButtonCancel"
+            app:layout_constraintTop_toBottomOf="@+id/destinationDetailSpinnerType" />
+
+        <Button
+            android:id="@+id/destinationDetailButtonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            style="@style/Theme.Destinations.DestinationEditButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/destinationDetailButtonSave"
+            app:layout_constraintBottom_toBottomOf="@+id/destinationDetailButtonSave" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

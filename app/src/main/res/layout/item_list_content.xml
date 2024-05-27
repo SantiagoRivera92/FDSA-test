@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:foreground="@drawable/ripple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/textViewDestinationName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Destinations.DestinationTitle"
+        app:layout_constraintEnd_toStartOf="@id/textViewCountryCode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Barcelona"/>
+
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/textViewDestinationDescription"
+        android:layout_width="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Destinations.DestinationDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textViewCountryCode"
+        app:layout_constraintTop_toBottomOf="@id/textViewDestinationName"
+        tools:text="The city of Gaudi"/>
+
+    <TextView
+        android:id="@+id/textViewCountryCode"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:theme="@style/Theme.Destinations.DestinationCountryCode"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/textViewDestinationDescription"
+        android:layout_margin="16dp"
+        tools:text="🇪🇸"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

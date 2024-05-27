@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/item_list_fragment">
+
+    <fragment
+        android:id="@+id/item_list_fragment"
+        android:label="@string/app_title"
+        android:name="com.santirivera.fdsa.fragment.list.FdsaDestinationListFragment">
+        <action
+            android:id="@+id/action_item_list_fragment_to_fdsaDestinationDetailFragment"
+            app:destination="@id/fdsaDestinationDetailFragment" />
+        <action
+            android:id="@+id/action_item_list_fragment_to_fdsaDestinationCreateFragment"
+            app:destination="@id/fdsaDestinationCreateFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fdsaDestinationCreateFragment"
+        android:name="com.santirivera.fdsa.fragment.detail.create.FdsaDestinationCreateFragment"
+        android:label="FdsaDestinationCreateFragment" />
+
+    <fragment
+        android:id="@+id/fdsaDestinationDetailFragment"
+        android:name="com.santirivera.fdsa.fragment.detail.update.FdsaDestinationDetailFragment"
+        android:label="FdsaDestinationDetailFragment">
+        <argument
+            android:name="destinationItem"
+            app:argType="com.santirivera.domain.model.DestinationItem" />
+    </fragment>
+</navigation>

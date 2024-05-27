@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Destinations.DestinationLabel">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="Theme.Destinations.DestinationTitle" parent="Theme.Destinations.DestinationLabel">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Destinations.DestinationDescription" parent="Theme.Destinations.DestinationLabel">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.Destinations.DestinationCountryCode" parent="Theme.Destinations.DestinationLabel">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Theme.Destinations.DestinationEditButton" parent="Theme.Destinations.DestinationLabel">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Theme.Destinations.DialogDestinationLabel">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.Destinations.DialogDestinationTitle" parent="Theme.Destinations.DialogDestinationLabel">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Destinations.DialogDestinationSubtitle" parent="Theme.Destinations.DialogDestinationLabel">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>

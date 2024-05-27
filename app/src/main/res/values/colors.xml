@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FFBD1000</color>
+    <color name="orange">#FFF79914</color>
+    <color name="purple">#FF744A5D</color>
+    <color name="blue">#FFCBE9FC</color>
+    <color name="grey_transparent">#ee444444</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey_1">#FFAAAAAA</color>
+    <color name="grey_2">#FFEEEEEE</color>
+
+    <color name="edit_button_pressed">@color/grey_1</color>
+    <color name="edit_button_unpressed">@color/grey_2</color>
+</resources>
